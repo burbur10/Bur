@@ -1,0 +1,9 @@
+from functools import reduce
+def add_all(a, b):
+    return a + b
+
+numbers = (4, 6, 7, 9, 13, 18, 14, 6, 21)
+even_nums = list(filter(lambda a :a %2==0, numbers))
+print(even_nums)
+sum = reduce(add_all, even_nums)
+print(sum)

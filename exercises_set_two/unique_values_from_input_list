@@ -1,0 +1,4 @@
+my_list = [1, 3, 4, 8, 2, 1, 5, 3, 8]
+c = set(my_list)
+a = list(c)
+print(a)

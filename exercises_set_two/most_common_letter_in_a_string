@@ -1,0 +1,9 @@
+def my_word(word):
+     number = [0]
+     for i in word:
+          if i > number:
+               print(str(i))
+     return number
+word = "hello, world"
+repeated = my_word(word)
+print()

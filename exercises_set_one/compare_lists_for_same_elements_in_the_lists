@@ -1,0 +1,13 @@
+def words(list1, list2):
+
+    similar = []
+    
+    for words in list1:
+        if words in list2 and words not in similar:
+            similar .append(words)
+    return similar
+
+list1 = ["lower", "jumping", "geophysist","beaute"]
+list2 = ["ukder", "jimpinj", "geophysist", "lower"]
+similar = words(list1, list2)
+print(similar)

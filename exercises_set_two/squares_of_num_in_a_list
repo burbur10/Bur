@@ -1,0 +1,15 @@
+#nums = (1, 2, 3, 4, 5, 7)
+#h = list(map(lambda a : a ** 2,nums))
+#print(h)
+def nums(input_list):
+    output_list  = []
+    for num in input_list:
+        output_list.append(num**2)
+    return output_list  
+    
+    
+    
+input_list = [int(input("Enter a number")),int(input("Enter a number")) ]
+output_list = nums(input_list)
+
+print(output_list)
